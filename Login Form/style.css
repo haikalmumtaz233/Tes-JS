@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #5467c7;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    width: 500px;
+    height: 300px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px 20px;
+    padding: 20px;
+}
+
+.box h2 {
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+.box form {
+    padding: 10px;
+}
+
+#inputuser {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    transition: 0.4s;
+}
+
+#inputuser::placeholder {
+    color: gray;
+    letter-spacing: 3px;
+}
+
+#inputuser:hover {
+    opacity: 0.8;
+}
+
+#input {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    transition: 0.4s;
+}
+
+#input::placeholder {
+    color: gray;
+    letter-spacing: 3px;
+}
+
+#input:hover {
+    opacity: 0.8;
+}
+
+.eye {
+    position: absolute;
+    padding: 5px;
+    left: 85%;
+    top: 50%;
+}
+
+.eye img {
+    width: 25px;
+}
+
+.eye:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#hide1 {
+    display: none;
+}
+
+#login {
+    cursor: pointer;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-family: 'Fira Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    background-color: #dead61;
+    transition: 0.4s;
+}
+
+#login:hover {
+    opacity: 0.8;
+}
+
+#login:active {
+    transform: scale(0.95);
+}
